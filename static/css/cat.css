@@ -1,0 +1,82 @@
+body {
+  background-image: url("colorful-pastel-triangle-pattern-design_1017-15348.jpg");
+  margin: 0 auto;
+}
+
+.present {
+  width: 300px;
+  height: 500px;
+  position: relative;
+  margin: auto;
+  margin-top: 75px;
+}
+
+.cupcake {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  -webkit-animation: off 5s infinite;
+  -webkit-animation-delay: 1s;
+}
+
+.wrapper {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 200px;
+  left: 8%;
+  z-index: -1;
+}
+
+.bologna {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  z-index: 6;
+  top: 40%;
+  left: 15%;
+  z-index: -2;
+  -webkit-animation: surprise 5s infinite;
+  -webkit-animation-delay: 1s;
+}
+
+@-webkit-keyframes off {
+  0% {
+    -webkit-transform: rotate(0deg);
+    left: 0;
+    top: 0;
+  }
+  25% {
+    -webkit-transform: rotate(40deg);
+    left: 60%;
+    top: -20%;
+  }
+  50% {
+   -webkit-transform: rotate(55deg);
+    left: 89%;
+    top: 20%;
+  }
+  75% {
+    -webkit-transform: rotate(40deg);
+    left: 60%;
+    top: -20%;
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    left: 0;
+    top: 0;
+  }
+}
+
+@-webkit-keyframes surprise {
+  0% {
+    top: 24%;
+  }
+  50% {
+    top: 5%;
+  }
+  100% {
+   top: 24%;
+  }
+}
+
